@@ -1,0 +1,99 @@
+[36mINFO[0m[0000] Starting Statping v0.80.71                    [36mtype[0m=cmd
+[33mWARN[0m[0000] DB_CONN environment variable was found, waiting for database...  [33mtype[0m=core
+[36mINFO[0m[0000] SQL database file at: /app/statping.db        [36mtype[0m=core
+[36mINFO[0m[0000] Database sqlite3 connection was successful.   [36mtype[0m=core
+[36mINFO[0m[0000] saved config file at: /app/config.yml         [36mtype[0m=core
+[36mINFO[0m[0000] Core database does not exist, creating now!   [36mtype[0m=core
+[36mINFO[0m[0000] Dropping Database Tables...                   [36mtype[0m=core
+[36mINFO[0m[0000] Creating Database Tables...                   [36mtype[0m=core
+[36mINFO[0m[0000] Statping Database Created                     [36mtype[0m=core
+[36mINFO[0m[0001] Inserting Sample Data...                      [36mtype[0m=core
+[36mINFO[0m[0002] Sample data has finished importing            [36mtype[0m=core
+[36mINFO[0m[0002] Adding 9900 sample hit records to service Google  [36mtype[0m=core
+[36mINFO[0m[0002] Adding 9900 sample hit records to service Statping Github  [36mtype[0m=core
+[36mINFO[0m[0002] Adding 9900 sample hit records to service JSON Users Test  [36mtype[0m=core
+[36mINFO[0m[0002] Adding 9900 sample hit records to service JSON API Tester  [36mtype[0m=core
+[36mINFO[0m[0002] Adding 9900 sample hit records to service Google DNS  [36mtype[0m=core
+[36mINFO[0m[0007] Migrating Database Tables...                  [36mtype[0m=core
+[36mINFO[0m[0007] Statping Database Migrated                    [36mtype[0m=core
+[36mINFO[0m[0007] Starting monitoring process for 5 Services    [36mtype[0m=core
+[36mINFO[0m[0007] Loading any available Plugins from /plugins directory  [36mtype[0m=plugin
+[36mINFO[0m[0007] Loaded 0 Plugins                              [36mtype[0m=plugin
+[36mINFO[0m[0007] Statping HTTP Server running on http://0.0.0.0:8080  [36mtype[0m=handlers
+[36mINFO[0m[0007] Service Google DNS Successful Response: 78.61 ms | Lookup in: 0.01 ms  [36mtype[0m=core
+[36mINFO[0m[0008] Service Statping Github Successful Response: 1270.64 ms | Lookup in: 14.17 ms  [36mtype[0m=core
+[33mWARN[0m[0017] Service Google Failing: HTTP Error Get https://google.com: net/http: request canceled while waiting for connection (Client.Timeout exceeded while awaiting headers) | Lookup in: 4.41 ms  [33mtype[0m=core
+[36mINFO[0m[0022] / (GET) | IP: localhost:8081                  [36mload_micro_seconds[0m=0 [36mmethod[0m=GET [36mtype[0m=handlers [36murl[0m=/
+[36mINFO[0m[0022] /css/bootstrap.min.css (GET) | IP: localhost:8081  [36mload_micro_seconds[0m=0 [36mmethod[0m=GET [36mtype[0m=handlers [36murl[0m=/css/bootstrap.min.css
+[36mINFO[0m[0022] /css/base.css (GET) | IP: localhost:8081      [36mload_micro_seconds[0m=0 [36mmethod[0m=GET [36mtype[0m=handlers [36murl[0m=/css/base.css
+[36mINFO[0m[0022] /font/all.css (GET) | IP: localhost:8081      [36mload_micro_seconds[0m=0 [36mmethod[0m=GET [36mtype[0m=handlers [36murl[0m=/font/all.css
+[36mINFO[0m[0023] /js/jquery-3.3.1.min.js (GET) | IP: localhost:8081  [36mload_micro_seconds[0m=0 [36mmethod[0m=GET [36mtype[0m=handlers [36murl[0m=/js/jquery-3.3.1.min.js
+[36mINFO[0m[0023] /js/bootstrap.min.js (GET) | IP: localhost:8081  [36mload_micro_seconds[0m=0 [36mmethod[0m=GET [36mtype[0m=handlers [36murl[0m=/js/bootstrap.min.js
+[36mINFO[0m[0023] /js/main.js (GET) | IP: localhost:8081        [36mload_micro_seconds[0m=0 [36mmethod[0m=GET [36mtype[0m=handlers [36murl[0m=/js/main.js
+[36mINFO[0m[0023] /js/apexcharts.min.js (GET) | IP: localhost:8081  [36mload_micro_seconds[0m=0 [36mmethod[0m=GET [36mtype[0m=handlers [36murl[0m=/js/apexcharts.min.js
+[36mINFO[0m[0023] /charts.js (GET) | IP: localhost:8081         [36mload_micro_seconds[0m=0 [36mmethod[0m=GET [36mtype[0m=handlers [36murl[0m=/charts.js
+[36mINFO[0m[0023] /font/webfonts/fa-solid-900.woff2 (GET) | IP: localhost:8081  [36mload_micro_seconds[0m=0 [36mmethod[0m=GET [36mtype[0m=handlers [36murl[0m=/font/webfonts/fa-solid-900.woff2
+[36mINFO[0m[0023] /api/services/1/data?start=1583228993&end=9999999999&group=hour (GET) | IP: localhost:8081  [36mload_micro_seconds[0m=0 [36mmethod[0m=GET [36mtype[0m=handlers [36murl[0m="/api/services/1/data?start=1583228993&end=9999999999&group=hour"
+[36mINFO[0m[0023] /api/services/2/data?start=1583228993&end=9999999999&group=hour (GET) | IP: localhost:8081  [36mload_micro_seconds[0m=0 [36mmethod[0m=GET [36mtype[0m=handlers [36murl[0m="/api/services/2/data?start=1583228993&end=9999999999&group=hour"
+[36mINFO[0m[0023] /api/services/3/data?start=1583228993&end=9999999999&group=hour (GET) | IP: localhost:8081  [36mload_micro_seconds[0m=0 [36mmethod[0m=GET [36mtype[0m=handlers [36murl[0m="/api/services/3/data?start=1583228993&end=9999999999&group=hour"
+[36mINFO[0m[0024] /favicon.ico (GET) | IP: localhost:8081       [36mload_micro_seconds[0m=0 [36mmethod[0m=GET [36mtype[0m=handlers [36murl[0m=/favicon.ico
+[36mINFO[0m[0024] /api/services/4/data?start=1583228993&end=9999999999&group=hour (GET) | IP: localhost:8081  [36mload_micro_seconds[0m=0 [36mmethod[0m=GET [36mtype[0m=handlers [36murl[0m="/api/services/4/data?start=1583228993&end=9999999999&group=hour"
+[36mINFO[0m[0024] /api/services/5/data?start=1583228993&end=9999999999&group=hour (GET) | IP: localhost:8081  [36mload_micro_seconds[0m=0 [36mmethod[0m=GET [36mtype[0m=handlers [36murl[0m="/api/services/5/data?start=1583228993&end=9999999999&group=hour"
+[36mINFO[0m[0027] Service Google DNS Successful Response: 71.76 ms | Lookup in: 0.01 ms  [36mtype[0m=core
+[33mWARN[0m[0037] Service JSON Users Test Failing: HTTP Error Get https://jsonplaceholder.typicode.com/users: net/http: request canceled while waiting for connection (Client.Timeout exceeded while awaiting headers) | Lookup in: 5.23 ms  [33mtype[0m=core
+[33mWARN[0m[0037] Service Google Failing: HTTP Error Get https://google.com: net/http: request canceled while waiting for connection (Client.Timeout exceeded while awaiting headers) | Lookup in: 4.80 ms  [33mtype[0m=core
+[33mWARN[0m[0037] Service JSON API Tester Failing: HTTP Error Post https://jsonplaceholder.typicode.com/posts: net/http: request canceled while waiting for connection (Client.Timeout exceeded while awaiting headers) | Lookup in: 11.46 ms  [33mtype[0m=core
+[36mINFO[0m[0038] Service Statping Github Successful Response: 1159.91 ms | Lookup in: 14.18 ms  [36mtype[0m=core
+[36mINFO[0m[0047] Service Google DNS Successful Response: 72.93 ms | Lookup in: 0.01 ms  [36mtype[0m=core
+[33mWARN[0m[0057] Service Google Failing: HTTP Error Get https://google.com: net/http: request canceled while waiting for connection (Client.Timeout exceeded while awaiting headers) | Lookup in: 28.75 ms  [33mtype[0m=core
+[36mINFO[0m[0060] /health (GET) | IP: localhost:8080            [36mload_micro_seconds[0m=0 [36mmethod[0m=GET [36mtype[0m=handlers [36murl[0m=/health
+[36mINFO[0m[0067] Service Google DNS Successful Response: 68.14 ms | Lookup in: 0.00 ms  [36mtype[0m=core
+[36mINFO[0m[0070] Service Statping Github Successful Response: 3379.88 ms | Lookup in: 13.35 ms  [36mtype[0m=core
+[33mWARN[0m[0078] Service Google Failing: HTTP Error Get https://google.com: net/http: request canceled while waiting for connection (Client.Timeout exceeded while awaiting headers) | Lookup in: 4.49 ms  [33mtype[0m=core
+[36mINFO[0m[0087] Service Google DNS Successful Response: 67.13 ms | Lookup in: 0.01 ms  [36mtype[0m=core
+[33mWARN[0m[0098] Service JSON API Tester Failing: HTTP Error Post https://jsonplaceholder.typicode.com/posts: net/http: request canceled while waiting for connection (Client.Timeout exceeded while awaiting headers) | Lookup in: 9.13 ms  [33mtype[0m=core
+[33mWARN[0m[0098] Service Google Failing: HTTP Error Get https://google.com: net/http: request canceled while waiting for connection (Client.Timeout exceeded while awaiting headers) | Lookup in: 4.50 ms  [33mtype[0m=core
+[36mINFO[0m[0099] Service Statping Github Successful Response: 2374.70 ms | Lookup in: 13.19 ms  [36mtype[0m=core
+[36mINFO[0m[0107] Service Google DNS Successful Response: 70.08 ms | Lookup in: 0.01 ms  [36mtype[0m=core
+[33mWARN[0m[0118] Service Google Failing: HTTP Error Get https://google.com: net/http: request canceled while waiting for connection (Client.Timeout exceeded while awaiting headers) | Lookup in: 4.62 ms  [33mtype[0m=core
+[36mINFO[0m[0120] /health (GET) | IP: localhost:8080            [36mload_micro_seconds[0m=0 [36mmethod[0m=GET [36mtype[0m=handlers [36murl[0m=/health
+[36mINFO[0m[0127] Service Google DNS Successful Response: 70.22 ms | Lookup in: 0.01 ms  [36mtype[0m=core
+[33mWARN[0m[0127] Service JSON Users Test Failing: HTTP Error Get https://jsonplaceholder.typicode.com/users: net/http: request canceled while waiting for connection (Client.Timeout exceeded while awaiting headers) | Lookup in: 5.22 ms  [33mtype[0m=core
+[36mINFO[0m[0129] Service Statping Github Successful Response: 2171.76 ms | Lookup in: 13.56 ms  [36mtype[0m=core
+[33mWARN[0m[0138] Service Google Failing: HTTP Error Get https://google.com: net/http: request canceled while waiting for connection (Client.Timeout exceeded while awaiting headers) | Lookup in: 6.60 ms  [33mtype[0m=core
+[36mINFO[0m[0147] Service Google DNS Successful Response: 83.41 ms | Lookup in: 0.00 ms  [36mtype[0m=core
+[33mWARN[0m[0158] Service JSON API Tester Failing: HTTP Error Post https://jsonplaceholder.typicode.com/posts: net/http: request canceled while waiting for connection (Client.Timeout exceeded while awaiting headers) | Lookup in: 5.03 ms  [33mtype[0m=core
+[36mINFO[0m[0158] Service Statping Github Successful Response: 1308.57 ms | Lookup in: 17.51 ms  [36mtype[0m=core
+[33mWARN[0m[0158] Service Google Failing: HTTP Error Get https://google.com: net/http: request canceled while waiting for connection (Client.Timeout exceeded while awaiting headers) | Lookup in: 4.94 ms  [33mtype[0m=core
+[36mINFO[0m[0167] Service Google DNS Successful Response: 69.35 ms | Lookup in: 0.01 ms  [36mtype[0m=core
+[33mWARN[0m[0178] Service Google Failing: HTTP Error Get https://google.com: net/http: request canceled while waiting for connection (Client.Timeout exceeded while awaiting headers) | Lookup in: 4.73 ms  [33mtype[0m=core
+[36mINFO[0m[0180] /health (GET) | IP: localhost:8080            [36mload_micro_seconds[0m=0 [36mmethod[0m=GET [36mtype[0m=handlers [36murl[0m=/health
+[36mINFO[0m[0188] Service Statping Github Successful Response: 1358.19 ms | Lookup in: 14.29 ms  [36mtype[0m=core
+[36mINFO[0m[0190] Service Google DNS Successful Response: 3132.82 ms | Lookup in: 0.00 ms  [36mtype[0m=core
+[36mINFO[0m[0192] / (GET) | IP: localhost:8081                  [36mload_micro_seconds[0m=0 [36mmethod[0m=GET [36mtype[0m=handlers [36murl[0m=/
+[36mINFO[0m[0193] /charts.js (GET) | IP: localhost:8081         [36mload_micro_seconds[0m=0 [36mmethod[0m=GET [36mtype[0m=handlers [36murl[0m=/charts.js
+[36mINFO[0m[0193] /api/services/1/data?start=1583229163&end=9999999999&group=hour (GET) | IP: localhost:8081  [36mload_micro_seconds[0m=0 [36mmethod[0m=GET [36mtype[0m=handlers [36murl[0m="/api/services/1/data?start=1583229163&end=9999999999&group=hour"
+[36mINFO[0m[0193] /api/services/2/data?start=1583229163&end=9999999999&group=hour (GET) | IP: localhost:8081  [36mload_micro_seconds[0m=0 [36mmethod[0m=GET [36mtype[0m=handlers [36murl[0m="/api/services/2/data?start=1583229163&end=9999999999&group=hour"
+[36mINFO[0m[0193] /api/services/3/data?start=1583229163&end=9999999999&group=hour (GET) | IP: localhost:8081  [36mload_micro_seconds[0m=0 [36mmethod[0m=GET [36mtype[0m=handlers [36murl[0m="/api/services/3/data?start=1583229163&end=9999999999&group=hour"
+[36mINFO[0m[0193] /api/services/4/data?start=1583229163&end=9999999999&group=hour (GET) | IP: localhost:8081  [36mload_micro_seconds[0m=0 [36mmethod[0m=GET [36mtype[0m=handlers [36murl[0m="/api/services/4/data?start=1583229163&end=9999999999&group=hour"
+[36mINFO[0m[0193] /api/services/5/data?start=1583229163&end=9999999999&group=hour (GET) | IP: localhost:8081  [36mload_micro_seconds[0m=0 [36mmethod[0m=GET [36mtype[0m=handlers [36murl[0m="/api/services/5/data?start=1583229163&end=9999999999&group=hour"
+[33mWARN[0m[0199] Service Google Failing: HTTP Error Get https://google.com: net/http: request canceled while waiting for connection (Client.Timeout exceeded while awaiting headers) | Lookup in: 6.26 ms  [33mtype[0m=core
+[36mINFO[0m[0207] Service Google DNS Successful Response: 71.64 ms | Lookup in: 0.01 ms  [36mtype[0m=core
+[33mWARN[0m[0218] Service JSON Users Test Failing: HTTP Error Get https://jsonplaceholder.typicode.com/users: net/http: request canceled while waiting for connection (Client.Timeout exceeded while awaiting headers) | Lookup in: 5.08 ms  [33mtype[0m=core
+[33mWARN[0m[0218] Service JSON API Tester Failing: HTTP Error Post https://jsonplaceholder.typicode.com/posts: net/http: request canceled while waiting for connection (Client.Timeout exceeded while awaiting headers) | Lookup in: 5.37 ms  [33mtype[0m=core
+[33mWARN[0m[0219] Service Google Failing: HTTP Error Get https://google.com: net/http: request canceled while waiting for connection (Client.Timeout exceeded while awaiting headers) | Lookup in: 4.12 ms  [33mtype[0m=core
+[36mINFO[0m[0220] Service Statping Github Successful Response: 2992.06 ms | Lookup in: 14.90 ms  [36mtype[0m=core
+[36mINFO[0m[0223] /dashboard (GET) | IP: localhost:8081         [36mload_micro_seconds[0m=0 [36mmethod[0m=GET [36mtype[0m=handlers [36murl[0m=/dashboard
+[36mINFO[0m[0223] /banner.png (GET) | IP: localhost:8081        [36mload_micro_seconds[0m=0 [36mmethod[0m=GET [36mtype[0m=handlers [36murl[0m=/banner.png
+[36mINFO[0m[0226] /dashboard (POST) | IP: localhost:8081        [36mload_micro_seconds[0m=0 [36mmethod[0m=POST [36mtype[0m=handlers [36murl[0m=/dashboard
+[33mWARN[0m[0226] user  not found                               [33mtype[0m=core
+[36mINFO[0m[0228] Service Google DNS Successful Response: 1093.81 ms | Lookup in: 0.01 ms  [36mtype[0m=core
+[36mINFO[0m[0228] /dashboard (POST) | IP: localhost:8081        [36mload_micro_seconds[0m=0 [36mmethod[0m=POST [36mtype[0m=handlers [36murl[0m=/dashboard
+[33mWARN[0m[0228] user   not found                              [33mtype[0m=core
+[33mWARN[0m[0239] Service Google Failing: HTTP Error Get https://google.com: net/http: request canceled while waiting for connection (Client.Timeout exceeded while awaiting headers) | Lookup in: 3.78 ms  [33mtype[0m=core
+[36mINFO[0m[0241] /health (GET) | IP: localhost:8080            [36mload_micro_seconds[0m=0 [36mmethod[0m=GET [36mtype[0m=handlers [36murl[0m=/health
+[36mINFO[0m[0245] /dashboard (POST) | IP: localhost:8081        [36mload_micro_seconds[0m=0 [36mmethod[0m=POST [36mtype[0m=handlers [36murl[0m=/dashboard
+[33mWARN[0m[0245] user root not found                           [33mtype[0m=core
+[36mINFO[0m[0247] Service Google DNS Successful Response: 379.17 ms | Lookup in: 0.01 ms  [36mtype[0m=core
+[36mINFO[0m[0249] Service Statping Github Successful Response: 2795.00 ms | Lookup in: 13.50 ms  [36mtype[0m=core
+[33mWARN[0m[0259] Service Google Failing: HTTP Error Get https://google.com: net/http: request canceled while waiting for connection (Client.Timeout exceeded while awaiting headers) | Lookup in: 4.82 ms  [33mtype[0m=core

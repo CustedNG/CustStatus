@@ -1,0 +1,25 @@
+[36mINFO[0m[0000] Starting Statping v0.80.71                    [36mtype[0m=cmd
+[33mWARN[0m[0001] DB_CONN environment variable was found, waiting for database...  [33mtype[0m=core
+[36mINFO[0m[0001] SQL database file at: /app/statping.db        [36mtype[0m=core
+[36mINFO[0m[0001] Database sqlite3 connection was successful.   [36mtype[0m=core
+[36mINFO[0m[0001] saved config file at: /app/config.yml         [36mtype[0m=core
+[36mINFO[0m[0001] Migrating Database Tables...                  [36mtype[0m=core
+[36mINFO[0m[0001] Statping Database Migrated                    [36mtype[0m=core
+[36mINFO[0m[0001] Starting monitoring process for 5 Services    [36mtype[0m=core
+[36mINFO[0m[0001] Loading any available Plugins from /plugins directory  [36mtype[0m=plugin
+[36mINFO[0m[0001] Loaded 0 Plugins                              [36mtype[0m=plugin
+[36mINFO[0m[0001] Statping HTTP Server running on http://0.0.0.0:8080  [36mtype[0m=handlers
+[36mINFO[0m[0002] Service Google DNS Successful Response: 72.47 ms | Lookup in: 0.01 ms  [36mtype[0m=core
+[36mINFO[0m[0008] Service Statping Github Successful Response: 6120.62 ms | Lookup in: 14.81 ms  [36mtype[0m=core
+[33mWARN[0m[0011] Service Google Failing: HTTP Error Get https://google.com: net/http: request canceled while waiting for connection (Client.Timeout exceeded while awaiting headers) | Lookup in: 4.81 ms  [33mtype[0m=core
+[36mINFO[0m[0022] Service Google DNS Successful Response: 369.87 ms | Lookup in: 0.01 ms  [36mtype[0m=core
+[33mWARN[0m[0032] Service JSON Users Test Failing: HTTP Error Get https://jsonplaceholder.typicode.com/users: net/http: request canceled while waiting for connection (Client.Timeout exceeded while awaiting headers) | Lookup in: 7.68 ms  [33mtype[0m=core
+[33mWARN[0m[0032] Service Google Failing: HTTP Error Get https://google.com: net/http: request canceled while waiting for connection (Client.Timeout exceeded while awaiting headers) | Lookup in: 5.39 ms  [33mtype[0m=core
+[33mWARN[0m[0032] Service JSON API Tester Failing: HTTP Error Post https://jsonplaceholder.typicode.com/posts: net/http: request canceled while waiting for connection (Client.Timeout exceeded while awaiting headers) | Lookup in: 4.41 ms  [33mtype[0m=core
+[36mINFO[0m[0035] Service Statping Github Successful Response: 3405.64 ms | Lookup in: 17.45 ms  [36mtype[0m=core
+[36mINFO[0m[0041] Service Google DNS Successful Response: 74.85 ms | Lookup in: 0.01 ms  [36mtype[0m=core
+[33mWARN[0m[0052] Service Google Failing: HTTP Error Get https://google.com: net/http: request canceled while waiting for connection (Client.Timeout exceeded while awaiting headers) | Lookup in: 15.55 ms  [33mtype[0m=core
+[36mINFO[0m[0060] /health (GET) | IP: localhost:8080            [36mload_micro_seconds[0m=0 [36mmethod[0m=GET [36mtype[0m=handlers [36murl[0m=/health
+[36mINFO[0m[0061] Service Google DNS Successful Response: 76.06 ms | Lookup in: 0.01 ms  [36mtype[0m=core
+[36mINFO[0m[0064] Service Statping Github Successful Response: 2698.74 ms | Lookup in: 13.51 ms  [36mtype[0m=core
+[33mWARN[0m[0072] Service Google Failing: HTTP Error Get https://google.com: net/http: request canceled while waiting for connection (Client.Timeout exceeded while awaiting headers) | Lookup in: 3.56 ms  [33mtype[0m=core
