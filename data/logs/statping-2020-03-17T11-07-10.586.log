@@ -1,0 +1,55 @@
+[36mINFO[0m[0000] Starting Statping v0.80.71                    [36mtype[0m=cmd
+[33mWARN[0m[0001] DB_CONN environment variable was found, waiting for database...  [33mtype[0m=core
+[36mINFO[0m[0001] SQL database file at: /app/statping.db        [36mtype[0m=core
+[36mINFO[0m[0001] Database sqlite3 connection was successful.   [36mtype[0m=core
+[36mINFO[0m[0001] saved config file at: /app/config.yml         [36mtype[0m=core
+[36mINFO[0m[0001] Migrating Database Tables...                  [36mtype[0m=core
+[36mINFO[0m[0001] Statping Database Migrated                    [36mtype[0m=core
+[36mINFO[0m[0001] Starting monitoring process for 5 Services    [36mtype[0m=core
+[36mINFO[0m[0001] Loading any available Plugins from /plugins directory  [36mtype[0m=plugin
+[36mINFO[0m[0001] Loaded 0 Plugins                              [36mtype[0m=plugin
+[36mINFO[0m[0001] Statping HTTP Server running on http://0.0.0.0:8080  [36mtype[0m=handlers
+[36mINFO[0m[0002] Service 长理DNS Successful Response: 89.11 ms | Lookup in: 0.05 ms  [36mtype[0m=core
+[36mINFO[0m[0002] Service Custed 天气服务 Successful Response: 242.44 ms | Lookup in: 17.38 ms  [36mtype[0m=core
+[36mINFO[0m[0002] Service Custed 更新服务 Successful Response: 254.61 ms | Lookup in: 14.34 ms  [36mtype[0m=core
+[36mINFO[0m[0002] Service 统一身份认证 Successful Response: 290.98 ms | Lookup in: 14.15 ms  [36mtype[0m=core
+[36mINFO[0m[0003] Service 主页 Successful Response: 570.34 ms | Lookup in: 16.41 ms  [36mtype[0m=core
+[36mINFO[0m[0011] / (GET) | IP: localhost:8081                  [36mload_micro_seconds[0m=0 [36mmethod[0m=GET [36mtype[0m=handlers [36murl[0m=/
+[36mINFO[0m[0012] /charts.js (GET) | IP: localhost:8081         [36mload_micro_seconds[0m=0 [36mmethod[0m=GET [36mtype[0m=handlers [36murl[0m=/charts.js
+[36mINFO[0m[0012] /api/services/6/data?start=1583233491&end=9999999999&group=hour (GET) | IP: localhost:8081  [36mload_micro_seconds[0m=0 [36mmethod[0m=GET [36mtype[0m=handlers [36murl[0m="/api/services/6/data?start=1583233491&end=9999999999&group=hour"
+[36mINFO[0m[0012] /api/services/7/data?start=1583233491&end=9999999999&group=hour (GET) | IP: localhost:8081  [36mload_micro_seconds[0m=0 [36mmethod[0m=GET [36mtype[0m=handlers [36murl[0m="/api/services/7/data?start=1583233491&end=9999999999&group=hour"
+[36mINFO[0m[0013] /api/services/9/data?start=1583233491&end=9999999999&group=hour (GET) | IP: localhost:8081  [36mload_micro_seconds[0m=0 [36mmethod[0m=GET [36mtype[0m=handlers [36murl[0m="/api/services/9/data?start=1583233491&end=9999999999&group=hour"
+[36mINFO[0m[0013] /api/services/8/data?start=1583233491&end=9999999999&group=hour (GET) | IP: localhost:8081  [36mload_micro_seconds[0m=0 [36mmethod[0m=GET [36mtype[0m=handlers [36murl[0m="/api/services/8/data?start=1583233491&end=9999999999&group=hour"
+[36mINFO[0m[0013] /api/services/5/data?start=1583233491&end=9999999999&group=hour (GET) | IP: localhost:8081  [36mload_micro_seconds[0m=0 [36mmethod[0m=GET [36mtype[0m=handlers [36murl[0m="/api/services/5/data?start=1583233491&end=9999999999&group=hour"
+[36mINFO[0m[0023] /dashboard (GET) | IP: localhost:8081         [36mload_micro_seconds[0m=0 [36mmethod[0m=GET [36mtype[0m=handlers [36murl[0m=/dashboard
+[36mINFO[0m[0024] /dashboard (POST) | IP: localhost:8081        [36mload_micro_seconds[0m=0 [36mmethod[0m=POST [36mtype[0m=handlers [36murl[0m=/dashboard
+[36mINFO[0m[0026] User admin logged in from IP 172.23.0.1:33800 
+[36mINFO[0m[0026] /dashboard (GET) | IP: localhost:8081         [36mload_micro_seconds[0m=0 [36mmethod[0m=GET [36mtype[0m=handlers [36murl[0m=/dashboard
+[36mINFO[0m[0029] /dashboard (GET) | IP: localhost:8081         [36mload_micro_seconds[0m=0 [36mmethod[0m=GET [36mtype[0m=handlers [36murl[0m=/dashboard
+[36mINFO[0m[0029] /services (GET) | IP: localhost:8081          [36mload_micro_seconds[0m=0 [36mmethod[0m=GET [36mtype[0m=handlers [36murl[0m=/services
+[36mINFO[0m[0031] /users (GET) | IP: localhost:8081             [36mload_micro_seconds[0m=0 [36mmethod[0m=GET [36mtype[0m=handlers [36murl[0m=/users
+[36mINFO[0m[0031] Service 长理DNS Successful Response: 96.03 ms | Lookup in: 0.00 ms  [36mtype[0m=core
+[36mINFO[0m[0031] Service Custed 天气服务 Successful Response: 249.48 ms | Lookup in: 15.63 ms  [36mtype[0m=core
+[36mINFO[0m[0031] Service Custed 更新服务 Successful Response: 256.36 ms | Lookup in: 15.67 ms  [36mtype[0m=core
+[36mINFO[0m[0031] Service 统一身份认证 Successful Response: 304.73 ms | Lookup in: 15.65 ms  [36mtype[0m=core
+[36mINFO[0m[0032] Service 主页 Successful Response: 636.63 ms | Lookup in: 9.05 ms  [36mtype[0m=core
+[36mINFO[0m[0034] /messages (GET) | IP: localhost:8081          [36mload_micro_seconds[0m=0 [36mmethod[0m=GET [36mtype[0m=handlers [36murl[0m=/messages
+[36mINFO[0m[0043] /settings (GET) | IP: localhost:8081          [36mload_micro_seconds[0m=0 [36mmethod[0m=GET [36mtype[0m=handlers [36murl[0m=/settings
+[36mINFO[0m[0060] /health (GET) | IP: localhost:8080            [36mload_micro_seconds[0m=0 [36mmethod[0m=GET [36mtype[0m=handlers [36murl[0m=/health
+[36mINFO[0m[0061] Service 长理DNS Successful Response: 83.77 ms | Lookup in: 0.01 ms  [36mtype[0m=core
+[36mINFO[0m[0061] Service Custed 更新服务 Successful Response: 249.22 ms | Lookup in: 8.28 ms  [36mtype[0m=core
+[36mINFO[0m[0061] Service 统一身份认证 Successful Response: 332.02 ms | Lookup in: 15.40 ms  [36mtype[0m=core
+[36mINFO[0m[0062] Service Custed 天气服务 Successful Response: 588.89 ms | Lookup in: 8.26 ms  [36mtype[0m=core
+[36mINFO[0m[0062] Service 主页 Successful Response: 687.66 ms | Lookup in: 5.97 ms  [36mtype[0m=core
+[36mINFO[0m[0091] Service 长理DNS Successful Response: 92.30 ms | Lookup in: 0.00 ms  [36mtype[0m=core
+[36mINFO[0m[0091] Service 统一身份认证 Successful Response: 323.50 ms | Lookup in: 15.66 ms  [36mtype[0m=core
+[36mINFO[0m[0092] Service 主页 Successful Response: 558.19 ms | Lookup in: 6.43 ms  [36mtype[0m=core
+[36mINFO[0m[0093] Service Custed 天气服务 Successful Response: 1988.30 ms | Lookup in: 3.60 ms  [36mtype[0m=core
+[36mINFO[0m[0099] Service Custed 更新服务 Successful Response: 8392.43 ms | Lookup in: 3.56 ms  [36mtype[0m=core
+[36mINFO[0m[0120] /health (GET) | IP: localhost:8080            [36mload_micro_seconds[0m=0 [36mmethod[0m=GET [36mtype[0m=handlers [36murl[0m=/health
+[36mINFO[0m[0121] Service 长理DNS Successful Response: 74.98 ms | Lookup in: 0.00 ms  [36mtype[0m=core
+[36mINFO[0m[0121] Service Custed 天气服务 Successful Response: 207.41 ms | Lookup in: 6.86 ms  [36mtype[0m=core
+[36mINFO[0m[0121] Service 统一身份认证 Successful Response: 339.69 ms | Lookup in: 15.21 ms  [36mtype[0m=core
+[36mINFO[0m[0122] Service Custed 更新服务 Successful Response: 535.85 ms | Lookup in: 6.96 ms  [36mtype[0m=core
+[36mINFO[0m[0122] Service 主页 Successful Response: 623.07 ms | Lookup in: 7.69 ms  [36mtype[0m=core
+[36mINFO[0m[0151] Service 长理DNS Successful Response: 81.47 ms | Lookup in: 0.00 ms  [36mtype[0m=core

@@ -1,0 +1,44 @@
+[36mINFO[0m[0000] Starting Statping v0.80.71                    [36mtype[0m=cmd
+[33mWARN[0m[0000] DB_CONN environment variable was found, waiting for database...  [33mtype[0m=core
+[36mINFO[0m[0000] SQL database file at: /app/statping.db        [36mtype[0m=core
+[36mINFO[0m[0000] Database sqlite3 connection was successful.   [36mtype[0m=core
+[36mINFO[0m[0000] saved config file at: /app/config.yml         [36mtype[0m=core
+[36mINFO[0m[0000] Migrating Database Tables...                  [36mtype[0m=core
+[36mINFO[0m[0000] Statping Database Migrated                    [36mtype[0m=core
+[36mINFO[0m[0000] Starting monitoring process for 5 Services    [36mtype[0m=core
+[36mINFO[0m[0000] Loading any available Plugins from /plugins directory  [36mtype[0m=plugin
+[36mINFO[0m[0000] Loaded 0 Plugins                              [36mtype[0m=plugin
+[36mINFO[0m[0000] Statping HTTP Server running on http://0.0.0.0:8080  [36mtype[0m=handlers
+[36mINFO[0m[0000] Service 长理DNS Successful Response: 92.83 ms | Lookup in: 0.06 ms  [36mtype[0m=core
+[36mINFO[0m[0001] Service 统一身份认证 Successful Response: 342.65 ms | Lookup in: 14.36 ms  [36mtype[0m=core
+[36mINFO[0m[0001] Service 主页 Successful Response: 641.93 ms | Lookup in: 7.82 ms  [36mtype[0m=core
+[36mINFO[0m[0003] /status/css/bootstrap.min.css (GET) | IP: localhost:8081  [36mload_micro_seconds[0m=0 [36mmethod[0m=GET [36mtype[0m=handlers [36murl[0m=/status/css/bootstrap.min.css
+[36mINFO[0m[0003] /status/css/base.css (GET) | IP: localhost:8081  [36mload_micro_seconds[0m=0 [36mmethod[0m=GET [36mtype[0m=handlers [36murl[0m=/status/css/base.css
+[36mINFO[0m[0003] /status/font/all.css (GET) | IP: localhost:8081  [36mload_micro_seconds[0m=0 [36mmethod[0m=GET [36mtype[0m=handlers [36murl[0m=/status/font/all.css
+[36mINFO[0m[0003] /status/js/jquery-3.3.1.min.js (GET) | IP: localhost:8081  [36mload_micro_seconds[0m=0 [36mmethod[0m=GET [36mtype[0m=handlers [36murl[0m=/status/js/jquery-3.3.1.min.js
+[36mINFO[0m[0003] /status/js/bootstrap.min.js (GET) | IP: localhost:8081  [36mload_micro_seconds[0m=0 [36mmethod[0m=GET [36mtype[0m=handlers [36murl[0m=/status/js/bootstrap.min.js
+[36mINFO[0m[0003] /status/js/apexcharts.min.js (GET) | IP: localhost:8081  [36mload_micro_seconds[0m=0 [36mmethod[0m=GET [36mtype[0m=handlers [36murl[0m=/status/js/apexcharts.min.js
+[36mINFO[0m[0003] /status/js/main.js (GET) | IP: localhost:8081  [36mload_micro_seconds[0m=0 [36mmethod[0m=GET [36mtype[0m=handlers [36murl[0m=/status/js/main.js
+[36mINFO[0m[0003] /status/font/webfonts/fa-solid-900.woff2 (GET) | IP: localhost:8081  [36mload_micro_seconds[0m=0 [36mmethod[0m=GET [36mtype[0m=handlers [36murl[0m=/status/font/webfonts/fa-solid-900.woff2
+[36mINFO[0m[0003] /status/favicon.ico (GET) | IP: localhost:8081  [36mload_micro_seconds[0m=0 [36mmethod[0m=GET [36mtype[0m=handlers [36murl[0m=/status/favicon.ico
+[36mINFO[0m[0005] /status (GET) | IP: localhost:8081            [36mload_micro_seconds[0m=0 [36mmethod[0m=GET [36mtype[0m=handlers [36murl[0m=/status
+[36mINFO[0m[0006] /status/charts.js (GET) | IP: localhost:8081  [36mload_micro_seconds[0m=0 [36mmethod[0m=GET [36mtype[0m=handlers [36murl[0m=/status/charts.js
+[36mINFO[0m[0006] /status/api/services/6/data?start=1583233641&end=9999999999&group=hour (GET) | IP: localhost:8081  [36mload_micro_seconds[0m=0 [36mmethod[0m=GET [36mtype[0m=handlers [36murl[0m="/status/api/services/6/data?start=1583233641&end=9999999999&group=hour"
+[36mINFO[0m[0006] /status/api/services/7/data?start=1583233641&end=9999999999&group=hour (GET) | IP: localhost:8081  [36mload_micro_seconds[0m=0 [36mmethod[0m=GET [36mtype[0m=handlers [36murl[0m="/status/api/services/7/data?start=1583233641&end=9999999999&group=hour"
+[36mINFO[0m[0006] /status/api/services/9/data?start=1583233641&end=9999999999&group=hour (GET) | IP: localhost:8081  [36mload_micro_seconds[0m=0 [36mmethod[0m=GET [36mtype[0m=handlers [36murl[0m="/status/api/services/9/data?start=1583233641&end=9999999999&group=hour"
+[36mINFO[0m[0006] /status/api/services/8/data?start=1583233641&end=9999999999&group=hour (GET) | IP: localhost:8081  [36mload_micro_seconds[0m=0 [36mmethod[0m=GET [36mtype[0m=handlers [36murl[0m="/status/api/services/8/data?start=1583233641&end=9999999999&group=hour"
+[36mINFO[0m[0006] /status/api/services/5/data?start=1583233641&end=9999999999&group=hour (GET) | IP: localhost:8081  [36mload_micro_seconds[0m=0 [36mmethod[0m=GET [36mtype[0m=handlers [36murl[0m="/status/api/services/5/data?start=1583233641&end=9999999999&group=hour"
+[36mINFO[0m[0007] Service Custed 更新服务 Successful Response: 6212.94 ms | Lookup in: 3.78 ms  [36mtype[0m=core
+[36mINFO[0m[0010] /status/dashboard (GET) | IP: localhost:8081  [36mload_micro_seconds[0m=0 [36mmethod[0m=GET [36mtype[0m=handlers [36murl[0m=/status/dashboard
+[36mINFO[0m[0010] /status/banner.png (GET) | IP: localhost:8081  [36mload_micro_seconds[0m=0 [36mmethod[0m=GET [36mtype[0m=handlers [36murl[0m=/status/banner.png
+[36mINFO[0m[0012] /status/dashboard (POST) | IP: localhost:8081  [36mload_micro_seconds[0m=0 [36mmethod[0m=POST [36mtype[0m=handlers [36murl[0m=/status/dashboard
+[36mINFO[0m[0013] Service Custed 天气服务 Successful Response: 12765.06 ms | Lookup in: 4.14 ms  [36mtype[0m=core
+[36mINFO[0m[0013] User admin logged in from IP 172.23.0.1:35944 
+[36mINFO[0m[0013] /status/dashboard (GET) | IP: localhost:8081  [36mload_micro_seconds[0m=0 [36mmethod[0m=GET [36mtype[0m=handlers [36murl[0m=/status/dashboard
+[36mINFO[0m[0015] /status/ (GET) | IP: localhost:8081           [36mload_micro_seconds[0m=0 [36mmethod[0m=GET [36mtype[0m=handlers [36murl[0m=/status/
+[36mINFO[0m[0015] /status (GET) | IP: localhost:8081            [36mload_micro_seconds[0m=0 [36mmethod[0m=GET [36mtype[0m=handlers [36murl[0m=/status
+[36mINFO[0m[0015] /status/api/services/6/data?start=1583233650&end=9999999999&group=hour (GET) | IP: localhost:8081  [36mload_micro_seconds[0m=0 [36mmethod[0m=GET [36mtype[0m=handlers [36murl[0m="/status/api/services/6/data?start=1583233650&end=9999999999&group=hour"
+[36mINFO[0m[0015] /status/api/services/7/data?start=1583233650&end=9999999999&group=hour (GET) | IP: localhost:8081  [36mload_micro_seconds[0m=0 [36mmethod[0m=GET [36mtype[0m=handlers [36murl[0m="/status/api/services/7/data?start=1583233650&end=9999999999&group=hour"
+[36mINFO[0m[0015] /status/api/services/9/data?start=1583233650&end=9999999999&group=hour (GET) | IP: localhost:8081  [36mload_micro_seconds[0m=0 [36mmethod[0m=GET [36mtype[0m=handlers [36murl[0m="/status/api/services/9/data?start=1583233650&end=9999999999&group=hour"
+[36mINFO[0m[0015] /status/api/services/8/data?start=1583233650&end=9999999999&group=hour (GET) | IP: localhost:8081  [36mload_micro_seconds[0m=0 [36mmethod[0m=GET [36mtype[0m=handlers [36murl[0m="/status/api/services/8/data?start=1583233650&end=9999999999&group=hour"
+[36mINFO[0m[0015] /status/api/services/5/data?start=1583233650&end=9999999999&group=hour (GET) | IP: localhost:8081  [36mload_micro_seconds[0m=0 [36mmethod[0m=GET [36mtype[0m=handlers [36murl[0m="/status/api/services/5/data?start=1583233650&end=9999999999&group=hour"

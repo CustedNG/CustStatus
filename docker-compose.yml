@@ -9,6 +9,7 @@ services:
     volumes:
       - ./data:/app
     environment:
-      DB_CONN: sqlite
       ADMIN_USER: admin
       ADMIN_PASSWORD: admin
+      BASE_PATH: status
+      DB_CONN: sqlite

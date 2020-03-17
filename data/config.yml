@@ -4,6 +4,6 @@ user: ""
 password: ""
 database: ""
 port: 0
-api_key: 6f3906ab3a625f1d729beee68ec7393ef21ff183
-api_secret: 1841d0580c991b30af3a7365c727ed368ba47fbb
+api_key: 849a0d4efec4162f6b3060a96146ee6b02b1c9ad
+api_secret: 799103fbe68a3ac0d003f51798277646a0c25715
 location: /app
