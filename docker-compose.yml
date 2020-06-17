@@ -2,7 +2,7 @@ version: '3.4'
 
 services:
   statping:
-    image: hunterlong/statping
+    image: statping/statping
     restart: always
     ports:
       - 127.0.0.1:8081:8080
