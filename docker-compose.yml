@@ -2,33 +2,14 @@ version: '3.4'
 
 services:
   statping:
-    image: statping/statping
+    image: hunterlong/statping
     restart: always
     ports:
       - 127.0.0.1:8081:8080
     volumes:
       - ./data:/app
-    depends_on:
-      - mysql
     environment:
       ADMIN_USER: admin
       ADMIN_PASSWORD: admin
       BASE_PATH: status
-      DB_CONN: mysql
-      DB_HOST: mysql
-      DB_PORT: 3306
-      DB_DATABASE: statping
-      DB_USER: root
-      DB_PASS: password123
-
-
-  mysql:
-    image: mysql:5.7
-    volumes:
-      - ./mysql_data:/var/lib/mysql
-    restart: always
-    environment:
-      MYSQL_ROOT_PASSWORD: password123
-      MYSQL_DATABASE: statping
-      MYSQL_USER: root
-      MYSQL_PASSWORD: password
+      DB_CONN: sqlite
