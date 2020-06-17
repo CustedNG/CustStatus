@@ -22,13 +22,13 @@ services:
       DB_PASS: password123
 
 
-mysql:
-  image: mysql:5.7
-  volumes:
-    - ./mysql_data:/var/lib/mysql
-  restart: always
-  environment:
-    MYSQL_ROOT_PASSWORD: password123
-    MYSQL_DATABASE: statping
-    MYSQL_USER: root
-    MYSQL_PASSWORD: password
+  mysql:
+    image: mysql:5.7
+    volumes:
+      - ./mysql_data:/var/lib/mysql
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: password123
+      MYSQL_DATABASE: statping
+      MYSQL_USER: root
+      MYSQL_PASSWORD: password
